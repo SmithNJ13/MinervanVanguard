@@ -23,7 +23,10 @@
     top: -11px;
     left: -11px;
     z-index: 99;
-    scale: 80%;
+    scale: 90%;
+    background-color: var(--offwhite);
+    border: 1px solid var(--offblack);
+    border-radius: 50%;
 }.IconImage:hover{
     cursor: pointer;
 }
