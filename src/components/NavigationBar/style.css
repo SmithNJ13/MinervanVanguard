@@ -1,0 +1,95 @@
+:root {
+    --bluelotus: #1f456E;
+    --smokeygrey: #c3c0b7;
+    --offblack: #060606;
+    --offwhite: #e3e4e6;
+  }
+  a {
+      color: var(--offwhite);
+    }
+  li {
+    list-style-type: none;
+  }
+  #NavigationBar {
+      position: fixed;
+      display: flex;
+      flex-direction: row;
+      margin: none;
+      align-items: center;
+      justify-content: center;
+      font-size: 40px;
+      gap: 150px;
+      background-color: var(--offblack);
+      border-bottom: 2px solid var(--offwhite);
+      width: 100vw;
+      height: 82px;
+      top: 0;
+      left: 0;
+      z-index: 9999;
+    }
+  .NavigationLeft, .NavigationRight {
+      position: relative;
+      display: flex;
+      flex-direction: row;
+      gap: 0px
+    } .NavigationLeft .NavItem {
+      transform: skewX(32deg);
+      -ms-transform: skewX(32deg);
+      -webkit-transform: skewX(32deg);
+      border-right: 5px solid var(--offwhite);
+    } .NavigationRight .NavItem {
+      transform: skewX(-32deg);
+      -ms-transform: skewX(-32deg);
+      -webkit-transform: skewX(-32deg);
+      border-left: 5px solid var(--offwhite);
+    }
+  .NavigationLeft {
+    left: 80px
+  }
+  .NavigationRight {
+    right: 50px
+  }
+  .NavItem {
+      color: var(--offwhite);
+      width: 222px;
+      height: 82px;
+      position: relative;
+      text-align: center;
+  } .NavItem:hover .Menu {
+      display: flex;
+    } .NavItem:hover {
+      background-color: var(--bluelotus);
+    }
+  
+  .NavText {
+    position: relative;
+    top: 20%;
+  } .NavigationLeft .NavText {
+    transform: skewX(-32deg);
+  } .NavigationRight .NavText {
+    transform: skewX(32deg);
+  }
+  
+  .Menu {
+      position: absolute;
+      top: 100%;
+      left: 0px;
+      background-color: rgba(0, 0, 0, 0.8);
+      border-top: 2px solid var(--bluelotus);
+      font-size: 28px;
+      width: 200px;
+      display: none;
+      flex-direction: column; 
+      align-items: center;
+  } .Menu a {
+      display: block;
+      color: #e3e4e6;
+      text-decoration: none;
+    } .Menu a:hover {
+      color: var(--bluelotus);
+    } .NavigationLeft .Menu {
+      transform: skewX(-32deg);
+    } .NavigationRight .Menu {
+      transform: skewX(32deg);
+    }
+    

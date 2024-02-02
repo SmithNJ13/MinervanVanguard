@@ -1,0 +1,17 @@
+body {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#box {
+    position: relative;
+    top: 250px;
+    text-align: center;
+    border: 5px solid white;
+    border-radius: 10px;
+} .wait {
+    width: 300px;
+    height: 300px;
+}

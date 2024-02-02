@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Doodle+Shadow&display=swap');
+:root {
+    --bluelotus: #1f456E;
+    --smokeygrey: #c3c0b7;
+    --offblack: #060606;
+    --offwhite: #e3e4e6;
+  }
+.title h1 {
+  position: relative;
+  text-align: center;
+  margin-top: 15%;
+  margin-bottom: 0;
+  font-size: 120px;
+  color: #d1861a; 
+  font-family: 'Rubik Doodle Shadow', system-ui;
+}
+#Palworld {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  margin: 0;
+}
+#textbox {
+  position: relative;
+  top: -12px;
+  height: 288px;
+  width: 812px;
+  background-color: rgba(227,228,230,0.5);
+  border: 4px solid var(--offwhite);
+  border-radius: 10px;
+  padding: 10px;
+}
+.subheading {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  height: 100%;
+  font-size: 14px;
+}
+.footer {
+  margin-top: 10%;
+  background-color: var(--offblack);
+  color: var(--offwhite);
+} .footericons {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  gap: 100px;
+  padding: 10px;
+  font-size: 28px;
+}
+.footer i {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+}

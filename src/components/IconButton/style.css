@@ -1,0 +1,29 @@
+:root {
+    --bluelotus: #1f456E;
+    --smokeygrey: #c3c0b7;
+    --offblack: #060606;
+    --offwhite: #e3e4e6;
+  }
+.IconBackground {
+    position: absolute;
+    margin: none;
+    transform: rotate(180deg);
+    top: -10px;
+    left: 44.5vw;
+    z-index: 98;
+}
+.IconForeground {
+    position: absolute;
+    top: 1px;
+    left: 46.9vw;
+    z-index: 99;
+}
+.IconImage {
+    position: absolute;
+    top: -11px;
+    left: -11px;
+    z-index: 99;
+    scale: 80%;
+}.IconImage:hover{
+    cursor: pointer;
+}
