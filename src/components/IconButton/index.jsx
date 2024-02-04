@@ -1,5 +1,6 @@
 import {useNavigate} from "react-router-dom"
 import "./style.css"
+import logo from "../../assets/logo.png"
 
 const IconButton = () => {
   const nav = useNavigate()
@@ -14,7 +15,7 @@ const IconButton = () => {
         </div>
         <div className="IconForeground">
             <div className="IconImage">
-                <img src="../src/assets/logo.png" onClick={onClick}></img>
+                <img src={logo} onClick={onClick}></img>
             </div>
         </div>
     </div>
