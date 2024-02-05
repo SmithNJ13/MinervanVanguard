@@ -1,11 +1,11 @@
 import './App.css'
 import {useEffect} from "react"
-import {BrowserRouter as Router, Routes, Route} from 'react-router-dom'
-import {NavigationBar} from "./components/exports"
-import {ComingSoon} from "./pages/exports"
+import {BrowserRouter as Router, Routes, Route} from 'react-router-dom' //eslint-disable-line
+import {NavigationBar, Footer} from "./components/exports"
+import {Home, Palworld} from "./pages/exports"
 
 function App() {
-  // const hash = window.location.hash
+  const hash = window.location.hash
   useEffect(() => {
     if(window.location.hash === "#about") {
       const element = document.getElementById("about")
@@ -19,9 +19,10 @@ function App() {
     <>
     <NavigationBar />
     <Routes>
-      <Route path="/" element={<ComingSoon />}/>
-      {/* <Route path="/Palworld/*" element={<Palworld hash={hash}/>} /> */}
+      <Route path="/" element={<Home />}/>
+      <Route path="/Palworld/*" element={<Palworld hash={hash}/>} />
     </Routes>
+    <Footer />
     </>
   )
 }

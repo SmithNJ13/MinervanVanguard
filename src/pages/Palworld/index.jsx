@@ -1,17 +1,15 @@
-// import {useEffect} from 'react'
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import {faFacebook, faInstagram, faTwitter} from "@fortawesome/free-brands-svg-icons"
+import {useEffect} from 'react'
 import "./style.css"
 
-const Palworld = () => {
-    // useEffect(() => {
-    //     if(hash === "#about") {
-    //         const element = document.getElementById("about")
-    //         if(element) {
-    //             element.scrollIntoView({behavior: "smooth"})
-    //         }
-    //     }
-    // }, [])
+const Palworld = (hash) => {
+    useEffect(() => {
+        if(hash === "#about") {
+            const element = document.getElementById("about")
+            if(element) {
+                element.scrollIntoView({behavior: "smooth"})
+            }
+        }
+    }, [hash])
 
   return (
     <>
@@ -33,14 +31,6 @@ const Palworld = () => {
             <li>Do not be naughty!</li>
         </div>
     </div>
-    <footer className="footer">
-        <div className="footericons">
-            <FontAwesomeIcon icon={faFacebook} />
-            <FontAwesomeIcon icon={faInstagram} />
-            <FontAwesomeIcon icon={faTwitter} />
-        </div>
-        <i>Website maintained by: XXXX</i>
-    </footer>
     </>
   )
 }

@@ -1,0 +1,20 @@
+.footer {
+  margin-top: 10%;
+  background-color: var(--offblack);
+  color: var(--offwhite);
+} .footericons {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  gap: 100px;
+  padding: 10px;
+  font-size: 28px;
+}
+.footer i {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+} #icon:hover {
+    color: var(--bluelotus);
+}
