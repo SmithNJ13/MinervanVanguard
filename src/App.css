@@ -3,10 +3,16 @@
   --smokeygrey: #c3c0b7;
   --offblack: #060606;
   --offwhite: #e3e4e6;
+  overflow-x: hidden;
 }
-
 html {
   background-color: var(--smokeygrey);
+  margin: 0px;
+  width: 100vw;
+  height: 100vh;
+}
+body {
+  margin: 0px;
 }
 ::-webkit-scrollbar {
   width: 8px;

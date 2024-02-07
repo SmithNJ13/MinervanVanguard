@@ -17,7 +17,7 @@ function App() {
 
   return (
     <>
-    <NavigationBar />
+    <NavigationBar/>
     <Routes>
       <Route path="/" element={<Home />}/>
       <Route path="/Palworld/*" element={<Palworld hash={hash}/>} />

@@ -2,7 +2,17 @@ import "./style.css"
 
 const Home = () => {
   return (
-    <h1 className="Text">HOME PAGE</h1>
+    <div className="content">
+      <div className="box1">
+
+      </div>
+      <div className="box2">
+
+      </div>
+      <div className="box3">
+        
+      </div>
+    </div>
   )
 }
 
