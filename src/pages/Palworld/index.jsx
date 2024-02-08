@@ -11,28 +11,19 @@ const Palworld = (hash) => {
         }
     }, [hash])
 
-  return (
-    <>
-    <div id="Palworld">
-        <div className="title" id="about">
-            <h1>Palworld!</h1>
+    return (
+    <div className="content">
+        <div className="section" id="about">
+
         </div>
-        <div id="textbox">
-            <div className="subheading">
-                <h2>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum necessitatibus corrupti maxime, ipsum a fuga nostrum amet eligendi, dolorem temporibus ea similique laborum eveniet modi quaerat sunt assumenda facere placeat nesciunt, iure omnis facilis aperiam. Sed, assumenda ipsam? Quasi error magni consequatur quibusdam? In quibusdam architecto, eum fugiat alias sint dolore assumenda quae et reprehenderit tempore magni optio nisi itaque ducimus omnis debitis, animi illo! Nihil voluptate commodi error tenetur quibusdam hic mollitia fuga recusandae non! Excepturi vero dicta doloremque maiores nulla ullam quisquam dolorem! Itaque ducimus quod ad deleniti voluptatum nobis nisi quos laborum magni, dolore accusamus, dolores illum.</h2>
-            </div>
+        <div className="section">
+
         </div>
-        <div id="team">
-            <h2>this is the team!</h2>
-            <li>John</li>
-        </div>
-        <div id="rules">
-            <h2>These are the rules!</h2>
-            <li>Do not be naughty!</li>
+        <div className="section">
+
         </div>
     </div>
-    </>
-  )
+    )
 }
 
 export default Palworld

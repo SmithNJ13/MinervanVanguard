@@ -17,7 +17,7 @@ const Footer = () => {
             <FontAwesomeIcon id="icon" icon={faTwitter} />
           </a>
         </div>
-        <i>Website maintained by: XXXX</i>
+        <i>Website maintained by: SmithNJ13</i>
     </footer>
     </>
   )

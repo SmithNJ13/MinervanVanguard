@@ -23,7 +23,7 @@ nav {
 /*MOBILE STUFF */
 .navigation {
   background-color: rgba(6,6,6,0.5);
-  color: #fff;
+  color: var(--offwhite);
   width: 35px;
   height: 35px;
   cursor: pointer;
@@ -137,7 +137,7 @@ transform: skewX(23deg);
   align-items: center;
 } .Menu a {
   display: block;
-  color: #e3e4e6;
+  color: var(--offwhite);
   text-decoration: none;
 } .Menu a:hover {
   color: var(--bluelotus);
