@@ -4,29 +4,36 @@
     --offblack: #060606;
     --offwhite: #e3e4e6;
   }
+#IconContainer {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    top: 0;
+    margin: 0px;
+}
 .IconBackground {
-    position: absolute;
-    margin: none;
-    transform: rotate(180deg);
-    top: -10px;
-    left: 44.5vw;
-    z-index: 98;
+    position: fixed;
+    top: -127px;
+    scale: 45%;
+    z-index: 99;
+    margin: 0px;
 }
 .IconForeground {
-    position: absolute;
-    top: 1px;
-    left: 46.9vw;
-    z-index: 99;
+    display: flex;
+    justify-content: center;
 }
 .IconImage {
-    position: absolute;
-    top: -11px;
-    left: -11px;
-    z-index: 99;
-    scale: 90%;
-    background-color: var(--offwhite);
-    border: 1px solid var(--offblack);
-    border-radius: 50%;
-}.IconImage:hover{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    top: 45px;
+    z-index: 100;
     cursor: pointer;
+    border-radius: 50%;
+    scale: 100%;
+    padding: 5px;
+}
+.IconImage:hover {
+    padding: 5px;
+    background-color: rgba(0,255,255,0.35)
 }

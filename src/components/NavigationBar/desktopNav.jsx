@@ -37,13 +37,13 @@ const DesktopNav = () => {
                 </div>
               )}
             </div>
-            <div className="NavItem" onMouseEnter={() => handleMouseEnter("FFXIV")} onMouseLeave={handleMouseLeave}>
-              <li className="NavText" style={style}>FFXIV</li>
-              {menuOpen === "FFXIV" && (
+            <div className="NavItem" onMouseEnter={() => handleMouseEnter("ESO")} onMouseLeave={handleMouseLeave}>
+              <li className="NavText" style={style}>ESO</li>
+              {menuOpen === "ESO" && (
                 <div className="Menu">
-                  <NavLink to="/FFXIV#about">About</NavLink>
-                  <NavLink to="/FFXIV#players">Players</NavLink>
-                  <NavLink to="/FFXIV#content">Content</NavLink>
+                  <NavLink to="/ESO#about">About</NavLink>
+                  <NavLink to="/ESO#players">Players</NavLink>
+                  <NavLink to="/ESO#content">Content</NavLink>
                 </div>
               )}
             </div>
