@@ -22,25 +22,25 @@ const MobileNav = () => {
               <div className="item">
                 <h4>DnD</h4>
                 <div className="submenu">
-                  <NavLink to="/DnD#about">About</NavLink>
-                  <NavLink to="/DnD#campaigns">Campaigns</NavLink>
+                  <NavLink to="/">About</NavLink>
+                  <NavLink to="/">Campaigns</NavLink>
                 </div>
               </div>
               <div className="item">
                 <h4>Star Citizen</h4>
                 <div className="submenu">
-                  <NavLink to="/StarCitizen#about">About</NavLink>
-                  <NavLink to="/StarCitizen#fleet">The Fleet</NavLink>
-                  <NavLink to="/StarCitizen#medical">Medical Team</NavLink>
-                  <NavLink to="/StarCitizen#join">Join</NavLink>
+                  <NavLink to="/">About</NavLink>
+                  <NavLink to="/">The Fleet</NavLink>
+                  <NavLink to="/">Medical Team</NavLink>
+                  <NavLink to="/">Join</NavLink>
                 </div>
               </div>
               <div className="item">
                 <h4>FFXIV</h4>
                 <div className="submenu">
-                  <NavLink to="/FFXIV#about">About</NavLink>
-                  <NavLink to="/FFXIV#players">Players</NavLink>
-                  <NavLink to="/FFXIV#content">Content</NavLink>
+                  <NavLink to="/">About</NavLink>
+                  <NavLink to="/">Players</NavLink>
+                  <NavLink to="/">Content</NavLink>
                 </div>
               </div>
             </div>
@@ -48,24 +48,24 @@ const MobileNav = () => {
               <div className="item">
                 <h4>Torn</h4>
                 <div className="submenu">
-                  <NavLink to="/Torn#about">About</NavLink>
-                  <NavLink to="/Torn#join">Join</NavLink>
+                  <NavLink to="/">About</NavLink>
+                  <NavLink to="/">Join</NavLink>
                 </div>
               </div>
               <div className="item">
                 <h4>Palworld</h4>
                 <div className="submenu">
-                  <NavLink to="/Palworld#about">About</NavLink>
-                  <NavLink to="/Palworld#team">Team</NavLink>
-                  <NavLink to="/Palworld#rules">Rules</NavLink>
-                  <NavLink to="/Palworld#server">Server</NavLink>
+                  <NavLink to="/">About</NavLink>
+                  <NavLink to="/">Team</NavLink>
+                  <NavLink to="/">Rules</NavLink>
+                  <NavLink to="/">Server</NavLink>
                 </div>
               </div>
               <div className="item">
                 <h4>Paradox</h4>
                 <div className="submenu">
-                  <NavLink to="/Paradox#about">About</NavLink>
-                  <NavLink to="/Paradox#games">Games</NavLink>
+                  <NavLink to="/">About</NavLink>
+                  <NavLink to="/">Games</NavLink>
                 </div>
               </div>
             </div>

@@ -30,10 +30,10 @@ const DesktopNav = () => {
               <li className="NavText" style={style}>Palworld</li>
               {menuOpen === "Palworld" && (
                 <div className="Menu">
-                  <NavLink to="/Palworld#about" onClick={handleAbout}>About</NavLink>
-                  <NavLink to="/Palworld#team">Team</NavLink>
-                  <NavLink to="/Palworld#rules">Rules</NavLink>
-                  <NavLink to="/Palworld#server">Server</NavLink>
+                  <NavLink to="/" onClick={handleAbout}>About</NavLink>
+                  <NavLink to="/">Team</NavLink>
+                  <NavLink to="/">Rules</NavLink>
+                  <NavLink to="/">Server</NavLink>
                 </div>
               )}
             </div>
@@ -41,9 +41,9 @@ const DesktopNav = () => {
               <li className="NavText" style={style}>ESO</li>
               {menuOpen === "ESO" && (
                 <div className="Menu">
-                  <NavLink to="/ESO#about">About</NavLink>
-                  <NavLink to="/ESO#players">Players</NavLink>
-                  <NavLink to="/ESO#content">Content</NavLink>
+                  <NavLink to="/">About</NavLink>
+                  <NavLink to="/">Players</NavLink>
+                  <NavLink to="/">Content</NavLink>
                 </div>
               )}
             </div>
@@ -51,8 +51,8 @@ const DesktopNav = () => {
               <li className="NavText" style={style}>Torn</li>
               {menuOpen === "Torn" && (
                 <div className="Menu">
-                  <NavLink to="/Torn#about">About</NavLink>
-                  <NavLink to="/Torn#join">Join</NavLink>
+                  <NavLink to="/">About</NavLink>
+                  <NavLink to="/">Join</NavLink>
                 </div>
               )}
             </div>
@@ -63,10 +63,10 @@ const DesktopNav = () => {
               <li className="NavText" style={style}>Star Citizen</li>
               {menuOpen === "StarCitizen" && (
                 <div className="Menu">
-                  <NavLink to="/StarCitizen#about">About</NavLink>
-                  <NavLink to="/StarCitizen#fleet">The Fleet</NavLink>
-                  <NavLink to="/StarCitizen#medical">Medical Team</NavLink>
-                  <NavLink to="/StarCitizen#join">Join</NavLink>
+                  <NavLink to="/">About</NavLink>
+                  <NavLink to="/">The Fleet</NavLink>
+                  <NavLink to="/">Medical Team</NavLink>
+                  <NavLink to="/">Join</NavLink>
                 </div>
               )}
             </div>
@@ -74,8 +74,8 @@ const DesktopNav = () => {
               <li className="NavText" style={style}>Paradox</li>
               {menuOpen === "ParadoxGames" && (
                 <div className="Menu">
-                  <NavLink to="/Paradox#about">About</NavLink>
-                  <NavLink to="/Paradox#games">Games</NavLink>
+                  <NavLink to="/">About</NavLink>
+                  <NavLink to="/">Games</NavLink>
                 </div>
               )}
             </div>
@@ -83,8 +83,8 @@ const DesktopNav = () => {
               <li className="NavText" style={style}>DnD</li>
               {menuOpen === "DnD" && (
                 <div className="Menu">
-                  <NavLink to="/DnD#about">About</NavLink>
-                  <NavLink to="/DnD#campaigns">Campaigns</NavLink>
+                  <NavLink to="/">About</NavLink>
+                  <NavLink to="/">Campaigns</NavLink>
                 </div>
               )}
             </div>

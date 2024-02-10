@@ -2,7 +2,7 @@ import './App.css'
 import {useEffect} from "react"
 import {BrowserRouter as Router, Routes, Route} from 'react-router-dom' //eslint-disable-line
 import {NavigationBar, Footer} from "./components/exports"
-import {Home, Palworld} from "./pages/exports"
+import {Home, Palworld, ComingSoon} from "./pages/exports"
 
 function App() {
   const hash = window.location.hash
@@ -19,10 +19,10 @@ function App() {
     <>
     <NavigationBar/>
     <Routes>
-      <Route path="/" element={<Home />}/>
-      <Route path="/Palworld/*" element={<Palworld hash={hash}/>} />
+      <Route path="/" element={<ComingSoon />}/>
+      {/* <Route path="/Palworld/*" element={<Palworld hash={hash}/>} /> */}
     </Routes>
-    <Footer />
+    {/* <Footer /> */}
     </>
   )
 }
