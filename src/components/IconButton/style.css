@@ -31,10 +31,10 @@
     cursor: pointer;
     border-radius: 50%;
     scale: 97.5%;
-    padding: 7px;
+    padding: 8px;
 }
 .IconImage:hover {
-    padding: 7px;
+    padding: 8px;
     background-color: rgba(0,255,255,0.35)
 }
 .IconImage:active {

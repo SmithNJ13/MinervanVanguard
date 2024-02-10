@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Protest+Guerrilla&display=swap');
 nav {
   position: fixed;
   top: 0;
@@ -70,6 +71,7 @@ a {
 }
 li {
 list-style-type: none;
+font-family: 'Protest Guerrilla', sans-serif;
 }
 #NavigationBar {
   position: fixed;
@@ -86,6 +88,7 @@ list-style-type: none;
   top: 0;
   left: 0;
   z-index: 9999;
+  gap: 3.1rem;
 }
 .NavigationLeft {
   left: 70px;
@@ -114,6 +117,7 @@ list-style-type: none;
   height: 82px;
   position: relative;
   text-align: center;
+  padding: 0px 10px 0px 10px;
 } .NavItem:hover .Menu {
   display: flex;
 } .NavItem:hover {
