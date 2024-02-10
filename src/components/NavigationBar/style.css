@@ -1,4 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Protest+Guerrilla&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
 nav {
   position: fixed;
   top: 0;
@@ -133,24 +135,30 @@ transform: skewX(23deg);
 }
 
 .Menu {
-  position: absolute;
+  position: fixed;
   top: 100%;
+  width: 100%;
   background-color: rgba(0, 0, 0, 0.8);
-  border-top: 2px solid var(--bluelotus);
-  font-size: 28px;
-  width: 200px;
+  border-top: 3px solid var(--bluelotus);
+  padding: 2px 5px 2px 5px;
+  font-size: 26px;
   display: none;
   flex-direction: column; 
   align-items: center;
+  font-family: 'Montserrat', sans-serif;
 } .Menu a {
   display: block;
   color: var(--offwhite);
   text-decoration: none;
 } .Menu a:hover {
-  color: var(--bluelotus);
   cursor: pointer;
+  background-color: var(--bluelotus);
+  width: 100%;
 } .NavigationLeft .Menu {
   transform: skewX(-23deg);
+  left: -1.5rem;
 } .NavigationRight .Menu {
   transform: skewX(23deg);
+  right: 0;
+  right: -1.5rem;
 }
