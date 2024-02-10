@@ -26,19 +26,17 @@
     position: relative;
     display: flex;
     justify-content: center;
-    top: 45px;
+    top: 44px;
     z-index: 100;
     cursor: pointer;
     border-radius: 50%;
-    scale: 100%;
-    padding: 5px;
+    scale: 97.5%;
+    padding: 7px;
 }
 .IconImage:hover {
-    padding: 5px;
+    padding: 7px;
     background-color: rgba(0,255,255,0.35)
 }
 .IconImage:active {
-    padding-bottom: 2px;
-    border-top: 3px solid var(--bluelotus);
-    border-bottom: 3px solid var(--bluelotus);
+    scale: 97%;
 }

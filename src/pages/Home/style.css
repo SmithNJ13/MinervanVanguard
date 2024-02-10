@@ -48,7 +48,7 @@
 .title#about {
   position: relative;
   text-align: center;
-  padding: 150px 0px 15px 0px;
+  padding: 150px 0px 25px 0px;
   font-family: 'Press Start 2P', system-ui;
   font-size: 40px;
   color: aqua;
@@ -135,6 +135,50 @@
 .description#community {
   text-align: end;
   margin-right: 2rem;
+  width: 50rem;
+  height: 100px;
+  padding: 50px 10px 50px 10px;
+  background-color: rgba(0,255,255,0.25);
+  border-radius: 10px;
+  color: var(--offwhite);
+  font-size:1rem;
+}
+
+
+.sectionContent#temp {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  margin-left: 5rem;
+  padding: 10px;
+}
+.imageBox#temp {
+  position: relative;
+  right: 0px;
+  width: 400px;
+  height: 400px;
+  background-color: aqua;
+  border: 4px solid white;
+  border-radius: 10px;
+}
+.imageBox img#temp {
+  position: relative;
+  width: 400px;
+  height: 400px;
+  border-radius: 6px;
+}
+.subheading#temp {
+  position: relative;
+  text-align: start;
+  top: 2rem;
+  color: aqua;
+  font-size: 2rem;
+  padding-left: 2rem;
+  text-decoration: underline;
+}
+.description#temp {
+  text-align: start;
+  margin-left: 2rem;
   width: 50rem;
   height: 100px;
   padding: 50px 10px 50px 10px;

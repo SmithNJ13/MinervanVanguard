@@ -16,6 +16,7 @@ const Home = () => {
           </div>
         </div>
       </div>
+
       <div className="section" id="community">
         <div className="sectionContent" id="community">
           <div className="eBox" id="community"> 
@@ -24,6 +25,18 @@ const Home = () => {
           </div>
           <div className="imageBox" id="community">
             <img id="community" src={placeholder}></img>
+          </div>
+        </div>
+      </div>
+      
+      <div className="section" id="temp">
+        <div className="sectionContent" id="temp">
+          <div className="imageBox" id="temp">
+            <img id="temp" src={placeholder}></img>
+          </div>
+          <div className="eBox" id="temp"> 
+            <h3 className="subheading" id="temp">Something Something</h3>
+            <p className="description" id="temp">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Pariatur fugit dolores tempora, repudiandae quis qui modi numquam odit laudantium nemo excepturi mollitia architecto, accusamus sit possimus? Voluptate iste doloribus, ratione molestias pariatur, laboriosam consequuntur, assumenda consequatur laudantium dicta sint voluptatibus neque nobis obcaecati rerum odit odio suscipit. Error necessitatibus tempora explicabo tenetur assumenda dolorem dolor? Magni eaque et doloribus enim?</p>
           </div>
         </div>
       </div>
