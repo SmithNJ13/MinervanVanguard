@@ -42,8 +42,9 @@ const DesktopNav = () => {
               {menuOpen === "ESO" && (
                 <div className="Menu">
                   <NavLink to="/ESO#about">About</NavLink>
-                  <NavLink to="/ESO#players">Players</NavLink>
-                  <NavLink to="/ESO#content">Content</NavLink>
+                  <NavLink to="/ESO#leadership">Leadership</NavLink>
+                  <NavLink to="/ESO#pvp">PvP</NavLink>
+                  <NavLink to="/ESO#events">Events</NavLink>
                 </div>
               )}
             </div>
@@ -53,6 +54,7 @@ const DesktopNav = () => {
                 <div className="Menu">
                   <NavLink to="/Torn#about">About</NavLink>
                   <NavLink to="/Torn#join">Join</NavLink>
+                  <NavLink to="/Torn#events">Events</NavLink>
                 </div>
               )}
             </div>
