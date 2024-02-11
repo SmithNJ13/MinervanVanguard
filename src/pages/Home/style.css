@@ -1,32 +1,4 @@
 @import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
-@media screen and (min-width: 1921px) and (min-height: 1081px) { /* Desktop */
-  .pageContent {
-    width: 100vw;
-    height: 100vh;
-    margin-top: 82px;
-  }
-}
-@media screen and (max-width: 1920px) and (max-height: 1080px) { /* Desktop */
-  .pageContent {
-    width: 100vw;
-    height: 100vh;
-    margin-top: 82px;
-  }
-}
-@media  screen and (max-width: 1024px) and (max-height: 1366px) { /* Tablet */
-  .pageContent {
-    width: 100vw;
-    height: 200vw;
-    margin-top: 0px;
-  }
-}
-@media screen and (max-width: 430px) and (max-height: 932px) { /* Mobile */
-  .pageContent {
-    width: 100vw;
-    height: 300vh;
-    margin-top: 0px;
-  }
-}
 .pageContent {
   display: flex;
   flex-direction: column;

@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Protest+Guerrilla&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+@import url("../../assets/fonts/highland-gothic/fonts.css");
 
 nav {
   position: fixed;
@@ -73,7 +74,7 @@ a {
 }
 li {
 list-style-type: none;
-font-family: 'Protest Guerrilla', sans-serif;
+font-family: 'HighlandGothic', sans-serif;
 }
 #NavigationBar {
   position: fixed;
@@ -82,7 +83,7 @@ font-family: 'Protest Guerrilla', sans-serif;
   margin: 0px;
   align-items: center;
   justify-content: space-evenly;
-  font-size: 40px;
+  font-size: 2rem;
   background-color: var(--offblack);
   border-bottom: 3px solid var(--offwhite);
   width: 100vw;
@@ -90,7 +91,7 @@ font-family: 'Protest Guerrilla', sans-serif;
   top: 0;
   left: 0;
   z-index: 9999;
-  gap: 1.225em;
+  gap: 3.1rem;
 }
 .NavigationLeft {
   left: 70px;

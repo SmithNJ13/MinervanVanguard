@@ -1,0 +1,12 @@
+@font-face {
+    font-family: "HighlandGothic";
+    src: url("../highland-gothic/HighlandGothicFLF.ttf") format("truetype")
+}
+@font-face {
+    font-family: "HighlandGothicBold";
+    src: url("../highland-gothic/HighlandGothicFLF-Bold.ttf") format("truetype");
+}
+@font-face {
+    font-family: "HighlandGothicLight";
+    src: url("../highland-gothic/HighlandGothicLightFLF.ttf") format("truetype");
+}
