@@ -12,6 +12,7 @@ const Palworld = (hash) => {
     }, [hash])
 
     return (
+    <>
     <div className="content">
         <div className="section" id="about">
 
@@ -23,6 +24,7 @@ const Palworld = (hash) => {
 
         </div>
     </div>
+    </>
     )
 }
 

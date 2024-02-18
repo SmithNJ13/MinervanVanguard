@@ -3,38 +3,19 @@
   --smokeygrey: #c3c0b7;
   --offblack: #060606;
   --offwhite: #e3e4e6;
-  overflow-x: hidden;
-  overflow-y: scroll;
-}
-@media only screen and (min-width: 1921px) and (min-height: 1081px) { /* Desktop */
-  .pageContent {
-    width: 100vw;
-    height: 100vh;
-    margin-top: 82px;
-  }
-}
-@media only screen and (max-width: 1920px) and (max-height: 1080px) { /* Desktop */
-  .pageContent {
-    width: 100vw;
-    height: 100vh;
-    margin-top: 82px;
-  }
-}
-@media only screen and (max-width: 430px) and (max-height: 932px) { /* Mobile */
-  .pageContent {
-    width: 100vw;
-    height: 300vh;
-    margin-top: 0px;
-  }
 }
 html {
   background-color: var(--smokeygrey);
   margin: 0px;
   padding: 0px;
+  height: auto;
 }
 body {
   margin: 0px;
   padding: 0px;
+  overflow-x: hidden;
+  overflow-y: scroll;
+  height: auto;
 }
 ::-webkit-scrollbar {
   width: 8px;

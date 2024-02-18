@@ -1,7 +1,9 @@
 .footer {
+  position: relative;
   background-color: var(--offblack);
   color: var(--offwhite);
-} .footericons {
+}
+.footericons {
   position: relative;
   display: flex;
   justify-content: space-evenly;

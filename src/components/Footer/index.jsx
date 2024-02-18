@@ -4,7 +4,6 @@ import "./style.css"
 
 const Footer = () => {
   return (
-    <>
     <footer className="footer">
         <div className="footericons">
           <a href="https://www.facebook.com/">
@@ -19,7 +18,6 @@ const Footer = () => {
         </div>
         <i>Website maintained by: SmithNJ13</i>
     </footer>
-    </>
   )
 }
 

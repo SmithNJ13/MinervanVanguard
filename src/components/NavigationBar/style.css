@@ -82,7 +82,7 @@ font-family: 'HighlandGothic', sans-serif;
   flex-direction: row;
   margin: 0px;
   align-items: center;
-  justify-content: space-evenly;
+  justify-content: center;
   font-size: 2rem;
   background-color: var(--offblack);
   border-bottom: 3px solid var(--offwhite);
@@ -91,7 +91,7 @@ font-family: 'HighlandGothic', sans-serif;
   top: 0;
   left: 0;
   z-index: 9999;
-  gap: 3.1rem;
+  gap: 1.575em;
 }
 .NavigationLeft {
   left: 70px;

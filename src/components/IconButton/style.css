@@ -30,13 +30,16 @@
     z-index: 100;
     cursor: pointer;
     border-radius: 50%;
-    scale: 97.5%;
     padding: 8px;
-}
-.IconImage:hover {
-    padding: 8px;
-    background-color: rgba(0,255,255,0.35)
 }
 .IconImage:active {
-    scale: 97%;
+    background-color: rgba(0, 0, 255, 0.2);
+}
+#logo {
+    width: 158px;
+    height: 158px;
+    scale: 150%;
+    image-rendering: crisp-edges;
+    object-position: center;
+    object-fit: cover;
 }

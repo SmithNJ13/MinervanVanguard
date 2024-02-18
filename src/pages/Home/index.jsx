@@ -3,6 +3,7 @@ import placeholder from "../../assets/placeholder.jpg"
 
 const Home = () => {
   return (
+    <>
     <div className="pageContent">
       <div className="section" id="about">
         <header className="title" id="about">Welcome to Minervan Vanguard</header>
@@ -41,6 +42,7 @@ const Home = () => {
         </div>
       </div>
     </div>
+    </>
   )
 }
 
