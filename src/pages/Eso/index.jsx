@@ -2,7 +2,7 @@ import {useEffect} from 'react'
 import placeholder from "../../assets/placeholder.jpg"
 import Footer from "../../components/Footer"
 
-const Palworld = (hash) => {
+const Eso = (hash) => {
     useEffect(() => {
         if(hash === "#about") {
             const element = document.getElementById("about")
@@ -15,7 +15,7 @@ const Palworld = (hash) => {
     return (
         <div id="main" className="overflow-hidden bg-neutral-700">
           <main id="content" className="relative w-screen h-screen overflow-y-scroll overflow-x-hidden sm:pt-[12rem]">
-            <h1 id="title" className="text-center py-[1rem] flex flex-col sm:mx-0 mx-4 text-4xl text-cyan-300 drop-shadow-[0_1.2px_1.2px_rgba(255,255,255,1)]">Palworld 
+            <h1 id="title" className="text-center py-[1rem] flex flex-col sm:mx-0 mx-4 text-4xl text-cyan-300 drop-shadow-[0_1.2px_1.2px_rgba(255,255,255,1)]">Eso 
               <div className="sm:w-[66rem] w-[20rem] h-[4px] my-[1rem] bg-cyan-300 self-center"></div>
             </h1>
             <section id="about" className="p-[2rem] flex sm:flex-row flex-col gap-[1rem] bg-neutral-500 w-full">
@@ -48,4 +48,4 @@ const Palworld = (hash) => {
       )
 }
 
-export default Palworld
+export default Eso

@@ -1,3 +1,8 @@
 export {default as Home} from "./Home/index"
+export {default as Eso} from "./Eso/index"
 export {default as Palworld} from "./Palworld/index"
+export {default as Torn} from "./Torn/index"
+export {default as Paradox} from "./Paradox/index"
+export {default as StarCitizen} from "./StarCitizen/index"
+export {default as DnD} from "./DnD/index"
 export {default as ComingSoon} from "./ComingSoon/index"
