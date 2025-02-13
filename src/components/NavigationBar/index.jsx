@@ -1,9 +1,11 @@
 import {useState} from 'react'
-import {NavLink} from "react-router-dom"
+import {useNavigate} from "react-router-dom"
 import {IconButton} from "../exports"
+import { isElement } from 'react-dom/test-utils'
 
 const NavigationBar = () => {
   const [openMenu, setOpenMenu] = useState(null)
+  const nav = useNavigate()
   
   const mouseEnter = (menuItem) => {
     setOpenMenu(menuItem)
@@ -19,7 +21,7 @@ const NavigationBar = () => {
           className="relative flex-1 text-center hover:cursor-pointer hover:bg-bluelotus h-[5rem] flex items-center justify-center border-y-[4px] border-transparent hover:border-bluelotus hover:border-t-white"
           onMouseEnter={() => mouseEnter("eso")}
           onMouseLeave={mouseLeave}>
-            <p className="text-4xl">ESO</p>
+            <p className="text-4xl" onClick={() => nav("/eso")}>ESO</p>
             {openMenu === "eso" && (
               <div 
               className="absolute left-0 w-full text-2xl flex flex-col items-start justify-start text-start h-max bg-bluelotus bg-opacity-70 p-[1rem] mt-[14rem] gap-[1rem] hover:cursor-default rounded-b-[1rem]">
@@ -33,7 +35,7 @@ const NavigationBar = () => {
           className="relative flex-1 text-center hover:cursor-pointer hover:bg-bluelotus h-[5rem] flex items-center justify-center border-y-[4px] border-transparent hover:border-bluelotus hover:border-t-white"
           onMouseEnter={() => mouseEnter("palworld")}
           onMouseLeave={mouseLeave}>
-            <p className="text-4xl">Palworld</p>
+            <p className="text-4xl" onClick={() => nav("/palworld")}>Palworld</p>
             {openMenu === "palworld" && (
               <div 
               className="absolute left-0 w-full text-2xl flex flex-col items-start justify-start text-start h-max bg-bluelotus bg-opacity-70 p-[1rem] mt-[17rem] gap-[1rem] hover:cursor-default rounded-b-[1rem]">
@@ -48,7 +50,7 @@ const NavigationBar = () => {
           className="relative flex-1 text-center hover:cursor-pointer hover:bg-bluelotus h-[5rem] flex items-center justify-center border-y-[4px] border-transparent hover:border-bluelotus hover:border-t-white"
           onMouseEnter={() => mouseEnter("torn")}
           onMouseLeave={mouseLeave}>
-            <p className="text-4xl">Torn</p>
+            <p className="text-4xl" onClick={() => nav("/torn")}>Torn</p>
             {openMenu === "torn" && (
               <div 
               className="absolute left-0 w-full text-2xl flex flex-col items-start justify-start text-start h-max bg-bluelotus bg-opacity-70 p-[1rem] mt-[11rem] gap-[1rem] hover:cursor-default rounded-b-[1rem]">
@@ -66,7 +68,7 @@ const NavigationBar = () => {
           className="relative flex-1 text-center hover:cursor-pointer hover:bg-bluelotus h-[5rem] flex items-center justify-center border-y-[4px] border-transparent hover:border-bluelotus hover:border-t-white"
           onMouseEnter={() => mouseEnter("paradox")}
           onMouseLeave={mouseLeave}>
-            <p className="text-4xl">Paradox</p>
+            <p className="text-4xl" onClick={() => nav("/paradox")}>Paradox</p>
             {openMenu === "paradox" && (
               <div 
               className="absolute left-0 w-full text-2xl flex flex-col items-start justify-start text-start h-max bg-bluelotus bg-opacity-70 p-[1rem] mt-[11rem] gap-[1rem] hover:cursor-default rounded-b-[1rem]">
@@ -79,7 +81,7 @@ const NavigationBar = () => {
           className="relative flex-1 text-center hover:cursor-pointer hover:bg-bluelotus h-[5rem] flex items-center justify-center border-y-[4px] border-transparent hover:border-bluelotus hover:border-t-white"
           onMouseEnter={() => mouseEnter("starcitizen")}
           onMouseLeave={mouseLeave}>
-            <p className="text-4xl">Star Citizen</p>
+            <p className="text-4xl" onClick={() => nav("/starcitizen")}>Star Citizen</p>
             {openMenu === "starcitizen" && (
               <div 
               className="absolute left-0 w-full text-2xl flex flex-col items-start justify-start text-start h-max bg-bluelotus bg-opacity-70 p-[1rem] mt-[17rem] gap-[1rem] hover:cursor-default rounded-b-[1rem]">
@@ -94,7 +96,7 @@ const NavigationBar = () => {
           className="relative flex-1 text-center hover:cursor-pointer hover:bg-bluelotus h-[5rem] flex items-center justify-center border-y-[4px] border-transparent hover:border-bluelotus hover:border-t-white"
           onMouseEnter={() => mouseEnter("dnd")}
           onMouseLeave={mouseLeave}>
-            <p className="text-4xl">DnD</p>
+            <p className="text-4xl" onClick={() => nav("/dnd")}>DnD</p>
             {openMenu === "dnd" && (
               <div 
               className="absolute left-0 w-full text-2xl flex flex-col items-start justify-start text-start h-max bg-bluelotus bg-opacity-70 p-[1rem] mt-[11rem] gap-[1rem] hover:cursor-default rounded-b-[1rem]">
