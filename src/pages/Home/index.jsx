@@ -1,45 +1,40 @@
-import "./style.css"
 import placeholder from "../../assets/placeholder.jpg"
+import Footer from "../../components/Footer"
+import { AboutUs, OurCommunity, ExtraSection } from "../../textFile"
 
 const Home = () => {
   return (
-    <div className="pageContent">
-      <div className="section" id="about">
-        <header className="title" id="about">Welcome to Minervan Vanguard</header>
-        <div className="sectionContent" id="about">
-          <div className="imageBox" id="about">
-            <img id="about" src={placeholder}></img>
-          </div>
-          <div className="eBox" id="about">
-            <h3 className="subheading" id="about">About Us</h3>
-            <p className="description" id="about">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptatibus neque labore omnis sapiente non tempora eum molestias ab sint repellendus voluptates at quibusdam, corrupti repellat dolorum. Quidem harum, praesentium vitae quis porro aspernatur fuga adipisci, velit odit culpa asperiores obcaecati repudiandae cum incidunt in, quam perspiciatis. Ullam animi quae inventore.</p>
-          </div>
-        </div>
-      </div>
-
-      <div className="section" id="community">
-        <div className="sectionContent" id="community">
-          <div className="eBox" id="community"> 
-            <h3 className="subheading" id="community">Our Community</h3>
-            <p className="description" id="community">Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis fugit numquam sed. Maxime nulla provident error? Error id tempore non delectus adipisci expedita. Dolorum libero reprehenderit ut? Minus, reiciendis consectetur. Tempora repudiandae sequi amet, omnis facere incidunt tempore cupiditate dolorum!</p>
-          </div>
-          <div className="imageBox" id="community">
-            <img id="community" src={placeholder}></img>
-          </div>
-        </div>
-      </div>
-      
-      <div className="section" id="temp">
-        <div className="sectionContent" id="temp">
-          <div className="imageBox" id="temp">
-            <img id="temp" src={placeholder}></img>
-          </div>
-          <div className="eBox" id="temp"> 
-            <h3 className="subheading" id="temp">Something Something</h3>
-            <p className="description" id="temp">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Pariatur fugit dolores tempora, repudiandae quis qui modi numquam odit laudantium nemo excepturi mollitia architecto, accusamus sit possimus? Voluptate iste doloribus, ratione molestias pariatur, laboriosam consequuntur, assumenda consequatur laudantium dicta sint voluptatibus neque nobis obcaecati rerum odit odio suscipit. Error necessitatibus tempora explicabo tenetur assumenda dolorem dolor? Magni eaque et doloribus enim?</p>
-          </div>
-        </div>
-      </div>
+    <div id="main" className="overflow-hidden bg-neutral-700">
+      <main id="content" className="relative w-screen h-screen overflow-y-scroll overflow-x-hidden sm:pt-[12rem]">
+        <h1 id="title" className="text-center py-[1rem] flex flex-col sm:mx-0 mx-4 text-4xl text-cyan-300 drop-shadow-[0_1.2px_1.2px_rgba(255,255,255,1)]">Welcome to Minervan Vanguard 
+          <div className="sm:w-[66rem] w-[20rem] h-[4px] my-[1rem] bg-cyan-300 self-center"></div>
+        </h1>
+        <section id="about" className="p-[2rem] flex sm:flex-row flex-col gap-[1rem] bg-neutral-500 w-full">
+          <img src={placeholder} className="sm:w-[30rem] sm:h-[30rem] border-cyan-300 border-2 rounded sm:m-[2rem]"></img>
+          <h2 className="sm:text-2xl text-xl text-cyan-300 font-bold flex-col sm:my-[4rem]">ABOUT US
+            <div className="sm:text-xl text-lg text-white font-normal sm:mr-[2rem]">
+              <p id="smallText" className="bg-cyan-300 bg-opacity-20 p-[1rem] rounded-[1rem]">{AboutUs}</p>
+            </div>
+          </h2>
+        </section>
+        <section id="community" className="p-[2rem] flex sm:flex-row-reverse flex-col gap-[1rem] bg-neutral-600 w-full">
+          <img src={placeholder} className="sm:w-[30rem] sm:h-[30rem] border-cyan-300 border-2 rounded sm:m-[2rem]"></img>
+          <h2 className="sm:text-2xl text-xl text-cyan-300 font-bold flex-col sm:my-[4rem] text-end">OUR COMMUNITY
+            <div className="sm:text-xl text-lg text-white font-normal sm:ml-[2rem]">
+              <p id="smallText" className="bg-cyan-300 bg-opacity-20 p-[1rem] rounded-[1rem]">{OurCommunity}</p>
+            </div>
+          </h2>
+        </section>
+        <section id="extra" className="p-[2rem] flex sm:flex-row flex-col gap-[1rem] bg-neutral-500 w-full">
+          <img src={placeholder} className="sm:w-[30rem] sm:h-[30rem] border-cyan-300 border-2 rounded sm:m-[2rem]"></img>
+          <h2 className="sm:text-2xl text-xl text-cyan-300 font-bold flex-col sm:my-[4rem]">EXTRA SECTION
+            <div className="sm:text-xl text-lg text-white font-normal sm:mr-[2rem]">
+              <p id="smallText" className="bg-cyan-300 bg-opacity-20 p-[1rem] rounded-[1rem]">{ExtraSection}</p>
+            </div>
+          </h2>
+        </section>
+        <Footer />
+      </main>
     </div>
   )
 }
